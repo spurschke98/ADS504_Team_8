@@ -1,27 +1,6 @@
-Project Title:
-Classifying Semantic Equivalency Across Patent Applications
+Abstract: Predictive modeling provides exciting solutions and applications in many fields ranging from targeted ads in marketing to fraud detection in credit card usage. While these applications may attract the most attention, much work in failure analysis is also the more humble and tedious work of analyzing large and publicly available data sources for macro level data relationships that can guide other aspects of policy that can saves lives, such as Disaster Management and Recovery Sources. Here we have investigated the application of machine learning tools to a unique source of public data from the 2015 Nepal Earthquake to demonstrate the utility of these approaches beyond what has already been shown in the literature. Using various linear, nonlinear, parametric, and non-parametric machine learning algorithms we showed that there is no significant difference in performance among models using five target classes. Binary classification models, generated and learned by aggregating classes to make a binary target, were learned and compared to multinomial classification models for sake of completeness and research. The strengths and weakness of the project were discussed, and future research recommendations with regard to this dataset were addressed. 
 
-Description:
-U.S. patent applications require significant manual effort to reconcile similarities across patents and patent domains. Modern data science and natural language processing techniques provide an opportunity to automate this review process. The objective of this study was to explore semantic similarity classification through several experimental approaches, from simple to near-state-of-the-art, toward a hypothesis that patent phrase pairs may be semantically classified. The study performed secondary data analysis of approximately 36,000 sampled U.S. patent phrase pairs, including preliminary data mining and pattern review. The study progressed through three experimental approaches, from simple word counts to context classification and, ultimately, semantic similarity using transformers (neural networks, or BERT). The study’s final BERT approach demonstrated that semantic similarity classification (automation) is possible for this use case, rejecting a null hypothesis. This conclusion supports promising additional refinement and research.
+Keywords: predictive modeling; structural earthquake damage; 2015 Nepal Earthquake; dimensionality reduction; data preprocessing 
+![image](https://user-images.githubusercontent.com/93449247/184797673-6d7d2132-4d23-41d9-8203-3934aaf77c68.png)
 
-Build Status, License
-__version__ = '1.0'
-__date__ = 'April 2022'
-__license__ = 'MIT'
-
-Tech/Frameworks Used:
-Python
-import pandas as pd
-import numpy as np
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_val_score, StratifiedKFold
-from sklearn.model_selection import train_test_split
-from sklearn import metrics
-from sklearn.feature_extraction.text import TfidfVectorizer
-from collections import Counter
-import statistics
-import matplotlib.pyplot as plt
-import seaborn as sns
 
